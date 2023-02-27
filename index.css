@@ -44,32 +44,60 @@ a:hover{
     -o-border-radius:5px;
     box-shadow: 2px 2px green;
 }
+*{
+    box-sizing:border-box;
+}
 #first-main-div{
     width:1440px;
     height:491px;
-    background:rgba(255, 180, 0, 1)
+    position:absolute;
 }
 .first-main-child-1{
-    background:rgba(31, 31, 31, 0.85);
-    width: 1048px;
+    width: 72%;
     height:491px;
-    position:absolute;
-    background-image: url(tractor.png);
-    background-repeat: no-repeat;
+    background: url(tractor.png) no-repeat lightblue;
     background-size: cover;
+    opacity:0.9;
+    float:left;
 }
 .first-main-child-1 h1{
     font-weight:bolder;
     color:white;
     margin:110px 419px 45px 202px;
+    border-left:5px solid rgba(255, 180, 0, 1);
+    
     
 }
-.first-main-child-1 p{
-    text-align: justify;
-    margin:0 205px 0px;
-    width:758px;
-    height: Hug(96px);
-    Top:132px;
-    color: #ffffff;
+.first-main-child-1  p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color:#ffffff;
+    width: 758px;
+height: 96px;
+margin:0 205px 20px;
+}
+button{
+    background:rgba(255, 180, 0, 1);
+    border:2px solid black;
+    border-radius: 3px;
+    color:#ffffff;
+    margin:50px 205px 20px;
+    width:230px;
+    height:55px;
+}
+.first-main-child-2{
+width: 28%;
+height: 491px;
+background:rgba(255, 180, 0, 1);
+float:left;
+}
+h2{
+    width: 218px;
+    height:50px;
+    Top: 113px;
+    Left: 1090px;
 
 }
