@@ -64,9 +64,7 @@ a:hover{
     font-weight:bolder;
     color:white;
     margin:110px 419px 45px 202px;
-    border-left:5px solid rgba(255, 180, 0, 1);
-    
-    
+    border-left:5px solid rgba(255, 180, 0, 1);    
 }
 .first-main-child-1  p{
     font-family: 'Open Sans';
@@ -92,12 +90,35 @@ button{
 width: 28%;
 height: 491px;
 background:rgba(255, 180, 0, 1);
-float:left;
+float:right;
 }
 h2{
     width: 218px;
     height:50px;
     Top: 113px;
     Left: 1090px;
-
+    margin: 25px 25px 0px 25px
+}
+.img-class{
+    float:left;
+    margin-right:10px;
+    margin-left: 20px;
+    padding-top: 12px;
+}
+.float-div{
+    float:left;
+    margin:0px;
+    padding:0px;
+}
+.p-scale1{
+    padding-top: 0px;
+    margin: 0px;
+    line-height: 30px;
+    color: #1f1f1f;
+    font-weight: bolder;
+}
+.p-scale2{ 
+    margin: 0px;
+    line-height: 30px;
+    color:white;
 }
