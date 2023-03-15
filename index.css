@@ -114,6 +114,12 @@ h2{
     margin-left: 20px;
     padding-top: 12px;
 }
+.image-size{
+    width:40px;
+    height:40px;
+    filter: saturate(250%) brightness(250%);
+    -webkit-filter: saturate(250%) brightness(250%);
+}
 .float-div{
     float:left;
     margin:0px;
@@ -286,8 +292,7 @@ font-size:25px;
 .div1sect{
 background:white;
 width:100%;
-/* background:green; */
-margin:0;
+
 position:absolute;
 }
 .div1sect1{

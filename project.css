@@ -41,25 +41,20 @@ body{
         padding:3px;
         box-sizing: border-box;
         -webkit-border-radius:5px;
-        -moz-border-radius:5px;
+         -moz-border-radius:5px;
         -ms-border-radius:5px;
         -o-border-radius:5px;
         box-shadow: 2px 2px green;
     }
-    *{
-        box-sizing:border-box;
-    }    
     #first-main-div{
         width:1440px;
         height:491px;
         position:absolute;
         background: url(buldozer.png) no-repeat rgba(31, 31, 31, 0.8);
         background-size: 1440px 491px;
-        opacity: 1;
+        background-color:lightgray;
     }
-
-    
-    .first-main-child-1 h1{
+     h1{
         color:white;
         text-align: center;
         font-weight: 700px;
@@ -72,13 +67,13 @@ body{
         left:390px;
         font-family: 'Rubik', sans-serif;
     }
-    .first-main-child-1 h1 span{ 
+    h1 span{ 
         font-weight:bolder;
         padding-top:30px;
         color:ffffff;  
         border-top:5px solid rgba(255, 180, 0, 1);    
     }
-    .first-main-child-1  p{
+    .p1{
         font-weight: 400;
         font-size: 22px;
         line-height: 32px;
@@ -112,4 +107,198 @@ body{
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
+}
+.section1{
+    width:1440px;
+    height:350px;
+    position:absolute;
+    top:545px;
+
+}
+#div-section{
+    background:white;
+    width:1440px; 
+    height:200px;
+    position:absolute;
+    display: flex;
+}
+.div-section1{
+    width:33%;
+    display:inline-flex;
+    background:white;
+    position: relative;
+}
+.image-block1{
+
+    height:40px;
+    padding-top:10px;
+    margin-top:35px;
+    margin-left: 70px;
+}
+.h2-1{
+    margin:35px 35px 0px 0px;
+    padding-left:10px;
+}
+.p-p{
+    line-height: 30px;
+    padding-left:10px;
+    padding-right:20px;
+}
+.div-section2{
+    width:33%;
+    display:inline-flex;
+    background:white;
+    position:relative;
+}
+.div-section3{
+    width:33%;
+    display:inline-flex;
+    background:white;
+    position:relative;
+}
+#div-section21{
+    background:white;
+    width:1440px; 
+    height:200px;
+    position:absolute;
+    display: flex;
+    top:150px
+}
+.div-section211{
+    width:33%;
+    display:inline-flex;
+    background:white;
+    position: relative;
+}
+.image-block11{
+
+    height:40px;
+    padding-top:10px;
+    margin-top:35px;
+    margin-left: 70px;
+}
+.h2-2{
+    margin:35px 35px 0px 0px;
+    padding-left:10px;
+}
+.p-p1{
+    line-height: 30px;
+    padding-left:10px;
+    padding-right:20px;
+}
+.div-section212{
+    width:33%;
+    display:inline-flex;
+    background:white;
+    position:relative;
+}
+.div-section213{
+    width:33%;
+    display:inline-flex;
+    background:white;
+    position:relative;
+}
+.section2{
+    width: 1440px;
+    height:600px;
+    
+    top:900px;
+    position:absolute;
+   display: flex;
+   /* justify-content: space-around; */
+}
+.div1-section2{
+    width:50%;
+    height:530px;
+    background-color:#FFB400;
+    /* position: absolute; */
+}
+.div1-section21{
+    margin-left: 20px;
+    margin-right: 0px;
+    width:90%;
+    
+    display:inline-flex;
+    position: relative;
+}
+.div1-img{
+    height: 35px;
+    padding-top:10px;
+    margin-top:10px;
+    margin-left:10px
+}
+.div-clas{
+    margin-left:0px;
+    line-height: 25px;
+}
+.class000{
+width:100%;
+background:#F7F7F7;;
+height:600px;
+position:relative;
+padding:0px;
+margin:0px;
+}
+h3{
+margin-left:48px;
+background:#F7F7F7;;
+display: inline-flex;
+text-align: center;
+width:680px;
+font-size:40px;
+padding:0px;
+position: relative;
+top: 30px;}
+.class00{
+    width:95%;
+    background:#F7F7F7;;
+    display:flex;
+    justify-content: space-evenly;
+    line-height:30px;
+    margin:0px;
+    position:relative;
+    top:30px
+}
+.class01{
+    width:50%;
+    background-color: #F7F7F7;;
+    margin-left:50px
+}
+.consult{
+    background:black;
+    position:relative;
+    top:150px;
+    display: inline-flex;
+    width:100%;
+    height: 68px;
+    position: relative;
+}
+.p-consult{
+    margin-left:20px;
+    margin-right: 500px;
+    font-size: 20px;
+    padding:5px;
+    font-weight: bolder;
+    width:300px;
+    color:#ffffff;
+}
+.button-consult{
+   position: relative;
+   height:40px;
+   padding:10px;
+   margin: 15px 50px 15px 50px;
+   width:200px;
+   border:3px solid #FFB400;
+   color:#FFB400;
+   font-weight: bold;
+   background:black;
+   text-transform: uppercase
+}
+.company-logo1{
+    width:1440px;
+    position:relative;   
+    top:1373px;
+}
+.img-company-screw{
+    width:100%;   
 }
