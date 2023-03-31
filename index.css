@@ -1,7 +1,7 @@
-html body{
-    padding-left:49px;
-    margin:0px;
-    background:#f7f7f7;
+body{
+   padding:0px;
+   margin:0px;
+   font-size: 16px;;
 }
 *{
     box-sizing: border-box;
