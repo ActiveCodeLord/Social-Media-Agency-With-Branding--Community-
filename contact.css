@@ -3,30 +3,40 @@ body{
     margin:0px;
     box-sizing: border-box;
 }
-#main-div{
+
+.div1{
+    background-color:yellow;
+    display: block;
+}
+.div1-p{
+    display: inline-block;
+    background-color: gray;
+    font-size: 25px;
+}
+.div1-p span{
+    color:red;
+    font-weight:14pxr;
+    
+}
+a:hover{
+    color:red;
+    text-decoration: none;
+    }
+
+
+
+    
+ #main-div{
     background:white;
     display:flex;
     
 }
 
-.div1{
-    
-}
-span{
-    color:blue;
-    font-weight:bolder;
-    
-}
-a:hover{
-    color:recd;
-    text-decoration: none;
-}
 iframe{
     width: 900px;
     background:yellow
 }
 .we-div{
-    /* background:blue; */
     width:600px;
     top:180px;
     position:relative;
@@ -35,9 +45,9 @@ iframe{
     padding-left:30px;
     color:red
 }
-p{
+.last-p{
     display:inline-block;
     text-align: center;
     width:600px;
     color:red;
-}
+} 
